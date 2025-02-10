@@ -1,0 +1,24 @@
+{
+	"name": "SCH_REST_TO_PARQUET01",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_S3_TO_PARQUET",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2025-02-11T20:15:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
