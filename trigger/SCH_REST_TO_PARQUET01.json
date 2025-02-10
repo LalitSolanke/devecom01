@@ -6,7 +6,7 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "PL_S3_TO_PARQUET",
+					"referenceName": "PL_REST_TO_PARQUET01",
 					"type": "PipelineReference"
 				}
 			}

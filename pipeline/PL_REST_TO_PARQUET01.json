@@ -1,5 +1,5 @@
 {
-	"name": "PL_S3_TO_PARQUET",
+	"name": "PL_REST_TO_PARQUET01",
 	"properties": {
 		"activities": [
 			{
